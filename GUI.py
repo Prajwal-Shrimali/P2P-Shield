@@ -14,6 +14,7 @@ from kivy.clock import Clock
 from kivy.logger import Logger
 import sys
 
+
 def getFileReportData(filename, apikey):
     url = 'https://www.virustotal.com/vtapi/v2/file/scan'
     params = {'apikey': apikey}
